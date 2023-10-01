@@ -52,7 +52,7 @@ public class GuesserMachine {
             numGuesses++; // add the number of guesses.
             
             if (guess == number) { //Checking if the user has guessed the number 
-                System.out.println("YOU WIN!");
+                System.out.println("YOU WIN!You are adding one point more to your Score !");
                 win = true;
                 break;// Stopping the loop if the player guess rightly.
                
