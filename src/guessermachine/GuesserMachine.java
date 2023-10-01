@@ -30,7 +30,7 @@ public class GuesserMachine {
         int numGuesses = 0;
         boolean win = false;
         
-        while (numGuesses < 10) { // A while loop to keep running and counting for 10 guesses
+        while (numGuesses < 8) { // A while loop to keep running and counting for 10 guesses
             int guess = myInput.getUserInt("Guess a number between 0 and 99: ");
             
             
